@@ -1,0 +1,151 @@
+
+
+/* styles.css */
+
+/* General Styles */
+body {
+    font-family: 'Pacifico', Lobster;
+    margin: 0;
+    padding: 0;
+    background-color: #faf3e0; /* Soft cream background */
+}
+
+/* Header and Footer Styles */
+header, footer {
+    background-color: #8b5a2b; /* Warm brown */
+    color: #ffffff;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+/* Header Title */
+header h1 {
+    display: inline-block;  
+    color: #ffffff;                                                             
+    font-size: 38pt;                                                         
+    text-align: left;                                                         
+    font-family: 'Pacifico', Lobster;
+    vertical-align: top;   
+    margin: 1;
+}
+
+/* Navigation Menu */
+nav {
+    background-color: #8b5a2b;                                             /* Warm brown */
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.menuitem {
+    display: inline-block;                                            
+    color: #ffffff;                                                     
+    font-size: 14pt;                                                   /* Slightly larger font */
+    text-align: center;                                               
+    font-family: 'Pacifico', Lobster;                                   
+    font-weight: bold;                                                 
+    vertical-align: top;                                              
+    padding: 10px 15px;
+    text-decoration: none;
+}
+
+.menuitem a {
+    color: #ffffff; /* White text for links */
+    text-decoration: none;
+}
+
+.menuitem a:hover {
+    background-color: #d18d6c; /* Light warm color on hover */
+    border-radius: 4px;
+}
+
+/* Content Sections */
+section h2 {
+    color: #8b5a2b;  /* Warm brown */
+    font-size: 20pt; 
+    text-align: left;                         
+    font-family: 'Pacifico', Lobster;
+    margin-bottom: 10px;
+}   
+
+section p {
+    color: #4a4a4a; /* Dark gray for text */
+    font-size: 14pt; 
+    text-align: left;                         
+    font-family: 'Pacifico', Lobster;
+    line-height: 1.6;
+}  
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+section ul li {
+    background-color: #ffffff; /* White background for list items */
+    margin-bottom: 10px;
+    padding: 15px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Softer shadow */
+}
+
+/* Footer Paragraph */
+footer p {
+    color: #ffffff; 
+    font-size: 10pt; 
+    text-align: center;                      
+    font-family: Arial, sans-serif; 
+    font-weight: normal;
+    padding: 10px;
+}  
+
+/* Link Styles */
+a:link, a:visited, a:active {
+    color: #ffffff;                                       
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Styles */
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff; /* White background for forms */
+    padding: 20px;
+    border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1); /* Softer shadow for form */
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc; /* Light gray border */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+form input[type="submit"] {
+    background-color: #8b5a2b;  /* Warm brown */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16pt;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+form input[type="submit"]:hover {
+    background-color: #d18d6c; /* Light warm color on hover */
+}
